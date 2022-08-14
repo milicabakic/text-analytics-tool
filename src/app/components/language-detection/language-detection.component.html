@@ -1,0 +1,23 @@
+<div>
+  <h3>Language Detection Page</h3>
+
+  <div>
+    <form (submit)="startLanguageDetection()" class="mb-5">
+      <div class="form-group mb-2">
+        <br>
+        <textarea id="textarea" name="textarea" placeholder="Enter your text here" rows="5" cols="20" [(ngModel)]="text"></textarea>
+        <br>
+        <input type="checkbox" id="checkboxClean" name="clean">
+        <label for="checkboxClean"> Clean</label><br>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+
+    <div *ngFor="let language of response.detectedLangs; let i = index;" class="mb-2">
+      <p>Language: {{ language.lang }} | Confidence: {{language.confidence}}</p>
+    </div>
+
+  </div>
+</div>

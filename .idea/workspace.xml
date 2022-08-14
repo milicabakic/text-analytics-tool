@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2f98732-8b0f-4853-b6c7-aee4c76928a0" name="Changes" comment="Cleanup" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zHHRGwaiQ5c5nkXqKwkmoCJznm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S\Downloads\demo2\demo2\src\app\components" />
+      <recent name="$PROJECT_DIR$/src/app/components/app" />
+      <recent name="$PROJECT_DIR$/src/app/pipes" />
+      <recent name="$PROJECT_DIR$/src/app/services" />
+      <recent name="$PROJECT_DIR$/src/app/components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2f98732-8b0f-4853-b6c7-aee4c76928a0" name="Changes" comment="" />
+      <created>1633798082691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633798082691</updated>
+      <workItem from="1633798087622" duration="13404000" />
+      <workItem from="1634048820148" duration="3529000" />
+      <workItem from="1634148541176" duration="1226000" />
+      <workItem from="1634158616620" duration="2110000" />
+      <workItem from="1634413790628" duration="3958000" />
+      <workItem from="1634557565776" duration="7381000" />
+      <workItem from="1634582450054" duration="123000" />
+      <workItem from="1635335493126" duration="4864000" />
+      <workItem from="1635540591509" duration="4118000" />
+      <workItem from="1635674229561" duration="23112000" />
+      <workItem from="1635760558145" duration="5313000" />
+      <workItem from="1635793883116" duration="4419000" />
+      <workItem from="1635881660419" duration="1220000" />
+      <workItem from="1635943298527" duration="2454000" />
+      <workItem from="1636031381461" duration="110000" />
+      <workItem from="1636031507413" duration="106000" />
+      <workItem from="1636045646311" duration="360000" />
+      <workItem from="1636830188613" duration="33000" />
+      <workItem from="1639844205592" duration="5384000" />
+      <workItem from="1639907110365" duration="7172000" />
+      <workItem from="1639993982564" duration="5139000" />
+      <workItem from="1640078918947" duration="374000" />
+      <workItem from="1660480115069" duration="503000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add post components">
+      <created>1633869372134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633869372134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Home page with dynamic css and pipes">
+      <created>1634055702927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634055702927</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add config component &amp; service">
+      <created>1634160246047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634160246047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Setup folder structure">
+      <created>1634160644020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634160644020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Setup folder structure">
+      <created>1634160790771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634160790771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleanup">
+      <created>1634417635676</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634417635676</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add post components" />
+    <MESSAGE value="Home page with dynamic css and pipes" />
+    <MESSAGE value="Add config component &amp; service" />
+    <MESSAGE value="Setup folder structure" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+  </component>
+</project>

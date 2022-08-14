@@ -1,0 +1,23 @@
+<div>
+  <h3>Configuration page</h3>
+
+  <div>
+    <form (submit)="setConfiguration()" class="mb-5">
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm">
+          <label for="name">Enter your username</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Username" [(ngModel)]="username">
+          <label for="token">Enter your token</label>
+          <input type="text" class="form-control" id="token" name="token" placeholder="Token" [(ngModel)]="token">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <form (submit)="clearConfiguration()">
+      <button type="submit" class="btn btn-primary">Clear credentials</button>
+    </form>
+  </div>
+</div>

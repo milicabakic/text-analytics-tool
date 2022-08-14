@@ -1,0 +1,11 @@
+<div>
+  <h3>History Page</h3>
+
+  <div>
+    <br>
+    <div *ngFor="let item of historyList; let i = index;" class="mb-2">
+      <p> [{{ item.time | date:'h:mm a' }}] {{item.method}} {{item.endpoint}}</p>
+    </div>
+
+  </div>
+</div>

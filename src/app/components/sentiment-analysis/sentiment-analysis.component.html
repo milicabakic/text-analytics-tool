@@ -1,0 +1,29 @@
+<div>
+  <h3>Sentiment Analysis Page</h3>
+
+  <div>
+    <form (submit)="doSentimentAnalysis()" class="mb-5">
+      <div class="form-group mb-2">
+        <br>
+        <textarea id="textarea" name="textarea" placeholder="Enter your text here" rows="5" cols="20" [(ngModel)]="text"></textarea>
+        <p></p>
+        <label for="lang">Choose a language:</label>
+        <br>
+        <select name="lang" id="lang" [(ngModel)]="selectedLanguage">
+          <option value="auto">Auto</option>
+          <option value="eng">English</option>
+          <option value="it">Italian</option>
+        </select>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+  </div>
+
+    <div class="mb-2" id="sentimentDiv">
+      <p>Sentiment type: {{ response.sentiment.type }} | Sentiment score: {{response.sentiment.score}}</p>
+    </div>
+
+
+</div>

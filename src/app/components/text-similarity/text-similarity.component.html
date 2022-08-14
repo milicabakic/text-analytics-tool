@@ -1,0 +1,24 @@
+<div>
+  <h3>Text Similarity Page</h3>
+
+  <div>
+    <form (submit)="submitText1Text2()" class="mb-5">
+      <div class="form-group mb-2">
+        <textarea id="textarea1" name="textarea1" placeholder="Enter your text1 here" rows="5" cols="20" [(ngModel)]="text1"></textarea>
+        <textarea id="textarea2" name="textarea2" placeholder="Enter your text2 here" rows="5" cols="20" [(ngModel)]="text2"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <p></p>
+    <p></p>
+    <label id="sim">Similarity: {{response.similarity}}</label>
+    <br>
+    <label id="lang">Language: {{response.lang}}</label>
+    <br>
+    <label id="langCof">Language confidence: {{response.langConfidence}}</label>
+    <br>
+    <label id="timestamp">Timestamp: {{response.timestamp}}</label>
+
+  </div>
+</div>

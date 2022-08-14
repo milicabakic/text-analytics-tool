@@ -1,0 +1,30 @@
+<div>
+  <h3>Entity Extraction Page</h3>
+  <br>
+  <div>
+    <form (submit)="doEntityExtraction()" class="mb-5">
+      <div class="form-group mb-2">
+        <textarea id="textarea1" name="textarea1" placeholder="Enter your text1 here" rows="5" cols="20" [(ngModel)]="text"></textarea>
+        <p></p>
+        <input type="range" min="0.0" max="10.0" value="5.0" class="slider" id="mySlider">
+        <br>
+        <input type="checkbox" id="image" name="image">
+        <label for="image"> Image</label><br>
+        <input type="checkbox" id="abstract" name="abstract">
+        <label for="abstract"> Abstract</label><br>
+        <input type="checkbox" id="category" name="category">
+        <label for="category"> Category</label><br>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div *ngFor="let annotation of response.annotations; let i = index;" class="mb-2">
+      <p>Entity: {{annotation.title}}</p>
+        <p *ngIf="category">Category: {{annotation.categories}}</p>
+        <p *ngIf="abstractt">Abstract: {{annotation.abstract}}</p>
+        <img *ngIf="image" src="{{annotation.image.full}}" alt="image url" width="200" height="400" >
+    </div>
+
+  </div>
+</div>
